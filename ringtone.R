@@ -6,11 +6,11 @@ seed <- 42   #choose a seed
 n_notes <- 5 #choose a integer between 1 and 5
 
 
+# Don't change anything after this line
 notes <- c("A", "B", "C", "D", "E", "F", "G")
 durations <- c(0.25, 0.33, 0.5, 0.75, 1, 1.5)
 semitones <- c("#", "b")
 
-# Don't change anything after this line
 set.seed(seed)
 
 song <- sample(notes, n_notes, replace = TRUE)
