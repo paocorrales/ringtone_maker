@@ -3,7 +3,7 @@
 library(Rmusic) # Install it with remotes::install_github("keithmcnulty/Rmusic")
 
 seed <- 24   #choose a seed
-n_notes <- 3 #choose a integer between 1 and 5
+n_notes <- 10 #choose a integer between 1 and 5
 
 
 # Don't change anything after this line
